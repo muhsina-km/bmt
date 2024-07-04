@@ -1,0 +1,106 @@
+.home3-page {
+  height: 100vh;
+  width: 100%;
+  background-color: #8dbdd8; /* Background color to match the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.home3-page-content {
+  background: transparent;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+.logo {
+  width: 150px; /* Adjust as necessary */
+  display: block;
+  margin-bottom: 20px;
+}
+
+.company-title {
+  color: white;
+}
+
+.why-choose-us {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.services-list p {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.images-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.service-image {
+  width: 100px; /* Adjust as necessary */
+  height: 100px; /* Adjust as necessary */
+  border-radius: 50%;
+}
+
+.contact-info p,
+.contact-info h4 {
+  color: rgb(0, 0, 0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home3-page-content {
+    padding: 10px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .service-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .contact-section {
+    margin-top: 20px;
+  }
+
+  .images-section {
+    flex-direction: column;
+  }
+
+  .service-image {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .company-title {
+    font-size: 1.5em;
+  }
+
+  .why-choose-us {
+    font-size: 1.2em;
+  }
+
+  .services-list p {
+    font-size: 14px;
+  }
+
+  .contact-info p,
+  .contact-info h4 {
+    font-size: 1em;
+  }
+}
