@@ -19,12 +19,20 @@ function Home() {
           <div className="separator"></div>
           <Title level={3} style={{ color: '#002d72' }}>Transforming Ideas into Reality</Title>
           <div className="contact-info">
-            <Paragraph className="contact-text">
+            {/* <Paragraph className="contact-text">
               <span className="contact-icon">📞</span> +971 55 830 7346
             </Paragraph>
             <Paragraph className="contact-text">
               <span className="contact-icon">📧</span> bamdubai24@gmail.com
-            </Paragraph>
+            </Paragraph> */}
+            <Paragraph className="contact-text">
+            <span className="contact-icon">📞</span> 
+            <a href="tel:+971558307346" style={{ color: '#002d72' }}>+971 55 830 7346</a>
+          </Paragraph>
+          <Paragraph className="contact-text">
+            <span className="contact-icon">📧</span> 
+            <a href="mailto:bamdubai24@gmail.com" style={{ color: '#002d72' }}>bamdubai24@gmail.com</a>
+          </Paragraph>
           </div>
         </Card>
       </div>
