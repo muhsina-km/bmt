@@ -30,8 +30,17 @@ const Home3 = () => {
                 </div>
                 <div className="contact-info">
                   <Paragraph><b>More Information, Please Contact Us</b></Paragraph>
-                  <Title level={4}>+971 55 830 7346</Title>
-                  <Title level={4} style={{ marginTop: '10px' }}>bamdubai24@gmail.com</Title>
+                  {/* <Title level={4}>+971 55 830 7346</Title>
+                  <Title level={4} style={{ marginTop: '10px' }}>bamdubai24@gmail.com</Title> */}
+          <Title level={5} style={{ margin: 0 }}>
+            <a href="tel:+971558307346" style={{ color: '#111111' }}>+971 55 830 7346</a>
+          </Title>
+          <Title level={5} style={{ marginTop: '10px', margin: 0 }}>
+            <a href="mailto:bamdubai24@gmail.com" style={{ color: '#111111' }}>bamdubai24@gmail.com</a>
+          </Title>
+          <Title level={5} style={{ marginTop: '10px', margin: 0 }}> WhatsApp Us :
+            <a href="https://wa.me/971558307346" target="_blank" rel="noopener noreferrer" style={{ color: '#111111' }}>+971 55 830 7346</a>
+          </Title>
                 </div>
               </Col>
             </Row>
